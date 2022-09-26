@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: mediumslateblue;
+}
+
+.wrapper > div{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 50px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 40px ;
+    border: none;
+    color: darksalmon;
+}
+input:focus{
+    border:2px solid #10afa8;
+}
+label{
+    font-family: cursive;
+    font-size: 25px;
+    margin-top: 20px;
+}
